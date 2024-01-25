@@ -30,6 +30,17 @@ class GrowattModBus extends IPSModule
         );
 
         $this->RegisterProfileIntegerEx(
+            'Growatt.Mppt',
+            'Information',
+            '',
+            '',
+            [
+                [0, $this->Translate('MPPT'), '', -1],
+                [1, $this->Translate('DC'), '', -1],
+            ]
+        );
+
+        $this->RegisterProfileIntegerEx(
             'Growatt.MemoryState',
             'Information',
             '',
