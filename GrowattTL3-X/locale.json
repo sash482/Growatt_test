@@ -23,6 +23,7 @@
             "Inverter Temperature": "Wechselrichtertemperatur",
             "Active Power Rate": "Wirkleistungsrate",
             "Memory State": "Speicherzustand",
+            "Traker Model": "MPPT oder DC"
             "Phase 1 Grid Voltage": "Phase 1 Netzspannung",
             "Phase 1 Grid Output Current": "Phase 1 Netzausgangsstrom",
             "Phase 2 Grid Voltage": "Phase 2 Netzspannung",
