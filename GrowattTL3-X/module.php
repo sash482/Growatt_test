@@ -31,6 +31,7 @@ require_once __DIR__ . '/../libs/GrowattModBus.php';
             ['Active Power Rate', VARIABLETYPE_INTEGER, '~Intensity.100', null,  0x0003, 3, 1,  6, true],
             ['Memory State', VARIABLETYPE_INTEGER, 'Growatt.MemoryState', null,  0x0002, 3, 1,  6, true],
             ['Traker Model', VARIABLETYPE_INTEGER, 'Growatt.Mppt', null,  0x007C, 3, 1,  6, true],
+            ['ExportLimitPowerRate', VARIABLETYPE_INTEGER, 'Growatt.export', null,  0x007B, 3, 1,  6, true],
             ['Phase 1 Grid Voltage', VARIABLETYPE_FLOAT, '~Volt', 0.1,  0x0026, 4, 1,  null, true],
             ['Phase 1 Grid Output Current', VARIABLETYPE_FLOAT, '~Ampere', 0.1,  0x0027, 4, 1,  null, true],
             ['Phase 2 Grid Voltage', VARIABLETYPE_FLOAT, '~Volt', 0.1,  0x002A, 4, 1,  null, true],
