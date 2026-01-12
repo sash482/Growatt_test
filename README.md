@@ -6,6 +6,8 @@
 # Growatt
    Mit diesem Modul ist es möglich die Wechselrichter der Firma Growatt über ModBus oder Grott (https://github.com/johanmeijer/grott) in IP-Symcon einzubinden.
  
+
+ 
    ## Inhaltverzeichnis
 - [Growatt](#growatt)
   - [Inhaltverzeichnis](#inhaltverzeichnis)
